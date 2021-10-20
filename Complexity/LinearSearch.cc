@@ -28,7 +28,7 @@ int main(void) {
     LinearSearch<int> ls;
 
     bool result = ls.Search(A, 3, 5);
-    std::cout << "Rezultat " << result << std::endl;
+    std::cout << "Result" << result << std::endl;
 
     delete [] A;
     return EXIT_SUCCESS;

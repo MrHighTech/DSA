@@ -30,7 +30,7 @@ int main(void) {
     std::cout << "Insert n: ";
     std::cin >> n;
 
-    array = (int *)malloc(sizeof(int) * n);
+    array = new int[n];
 
     randomizeArray(array, n);
 
@@ -38,7 +38,7 @@ int main(void) {
 
     std::cout << addSquares(array, n) << std::endl;
 
-    free(array);
+    delete [] array;
 
     return EXIT_SUCCESS;
 }

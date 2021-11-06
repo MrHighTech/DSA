@@ -41,7 +41,7 @@ class X {
             p.x = 0;
         }
     public:
-        static uint32_t numOfInstances;        
+        static uint32_t numOfInstances;
         void resetNumOfInstances() {
             numOfInstances = 0;
         }
@@ -53,7 +53,7 @@ class X {
 uint32_t X::numOfInstances = 0;
 
 uint32_t main(void) {
-    
+
     Shape s;
     Rectangle r;
 

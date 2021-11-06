@@ -8,7 +8,7 @@ class Fraction {
         uint32_t denominator;
     public:
         Fraction() {}
-        Fraction (uint32_t numerator, uint32_t denominator) : 
+        Fraction (uint32_t numerator, uint32_t denominator) :
             numerator(numerator), denominator(denominator) {}
         uint32_t getNumerator() {
             return numerator;

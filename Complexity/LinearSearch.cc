@@ -9,7 +9,7 @@ template <typename T> class LinearSearch : public ISearch<T>{
     public:
         bool Search(T A[], int n, T item) {
             bool result = false;
-            for (int i = 0; i < n; i++) {
+            for (int i = 0; i < n; ++i) {
                 if (A[i] == item) {
                     result = true;
                     break;

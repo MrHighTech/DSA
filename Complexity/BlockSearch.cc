@@ -23,7 +23,7 @@ template <typename T> class BlockSearch : public ISearch<T> {
                 blockEnd = n - 1;
             }
 
-            for (int i = blockStart; i <= blockEnd; i++) {
+            for (int i = blockStart; i <= blockEnd; ++i) {
                 if (A[i] == item) {
                     found = true;
                     break;
@@ -39,7 +39,7 @@ int main(void) {
     int *A = new int[16] {1, 2, 3, 4, 5, 6, 7, 8, 9,
                           10, 11, 12, 13, 14, 15, 16};
     BlockSearch<int> bs;
-    for (int i = -100; i < 100; i++) {
+    for (int i = -100; i < 100; ++i) {
         bool result = bs.Search(A, 16, i + 1);
         std::cout << "[" << i + 1 << "] Result: " << result << std::endl;
     }

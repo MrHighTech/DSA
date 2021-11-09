@@ -15,7 +15,7 @@ int addSquares(int *array, int n) {
 }
 
 void randomizeArray(int *array, int n) {
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; ++i) {
         *(array + i) = rand() % 100 + 1;
         std::cout << *(array + i) << " ";
     }

@@ -23,5 +23,5 @@ int main(void) {
 
     Pair<Point<int>, Point<double>> pair1;
     pair1.el1.x;
-    return;
+    return EXIT_SUCCESS;
 }

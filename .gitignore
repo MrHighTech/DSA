@@ -7,6 +7,6 @@
 # Unignore all dirs
 !*/
 
-# Unignore other unwated folders
+# Ignore other unwated folders
 /.vscode/
 /ClassExamples/

@@ -17,10 +17,10 @@ int main(void) {
 
     int n, m, *array;
 
-    std::cout << "Insert n: ";
+    std::cout << "Enter n: ";
     std::cin >> n;
 
-    std::cout << "Insert m: ";
+    std::cout << "Enter m: ";
     std::cin >> m;
 
     array = new int[n];

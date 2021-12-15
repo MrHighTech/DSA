@@ -27,7 +27,7 @@ int main(void) {
     srand(time(NULL));
 
     int *array, n;
-    std::cout << "Insert n: ";
+    std::cout << "Enter n: ";
     std::cin >> n;
 
     array = new int[n];

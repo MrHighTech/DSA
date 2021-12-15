@@ -15,7 +15,7 @@ int main(void) {
 
     double *array;
     int n;
-    std::cout << "Insert n: ";
+    std::cout << "Enter n: ";
     std::cin >> n;
 
     array = new double[n];

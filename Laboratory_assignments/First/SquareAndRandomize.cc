@@ -28,13 +28,13 @@ int main(void) {
 
     int n, *array, *newArray;
 
-    std::cout << "Insert n: ";
+    std::cout << "Enter n: ";
     std::cin >> n;
 
     array = new int[n];
 
     for (int i = 0; i < n; ++i) {
-        std::cout << "Insert at index " << i << ": ";
+        std::cout << "Enter at index " << i << ": ";
         std::cin >> array[i];
     }
 

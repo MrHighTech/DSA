@@ -18,9 +18,9 @@ int main(void) {
 
     double *A, x, xpot;
     int n, fakt;
-    std::cout << "Insert n: ";
+    std::cout << "Enter n: ";
     std::cin >> n;
-    std::cout << "Insert x: ";
+    std::cout << "Enter x: ";
     std::cin >> x;
 
     A = new double[n];

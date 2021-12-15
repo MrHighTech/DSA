@@ -25,9 +25,9 @@ int main(void) {
     float x, *A;
     int n, *B;
 
-    std::cout << "Insert n: ";
+    std::cout << "Enter n: ";
     std::cin >> n;
-    std::cout << "Insert x: ";
+    std::cout << "Enter x: ";
     std::cin >> x;
 
     A = new float[n];
